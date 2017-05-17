@@ -1,6 +1,5 @@
 body{
   background-color: #232323;
-  color: white
 }
 
 .square{
@@ -17,6 +16,13 @@ body{
   margin: 0 auto;
 }
 
-h1 {
+#stripe {
+  background: white;
+  height: 30px;
+  text-align: center;
+  color: black;
+}
 
+h1 {
+  color: white;
 }
