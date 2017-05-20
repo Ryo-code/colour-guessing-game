@@ -19,7 +19,7 @@ body{
 
 .container{
   margin: 20px auto;
-  max-width: 600px;
+  max-width: 500px;
 }
 
 #stripe {
@@ -68,10 +68,16 @@ button {
   -moz-transition: all 0.3s;
   /*1st arg: what you want CSS to animate; 2nd: how long you want it to take (s = seconds)*/
   /*In this case, the transition is referring to the hover effect*/
+  outline: none; /*This gets rid of the blue outline that the browser itself creates*/
 }
 button:hover {
   color: white;
   background: steelblue;
 }
 
-@media ()
+
+@media (max-width: 418px) { 
+  #message {
+    display: none;
+  }
+}
